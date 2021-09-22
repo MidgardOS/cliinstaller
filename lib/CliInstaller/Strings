@@ -1,0 +1,4 @@
+os_version="2021.1"
+back_title="MidgardOS Server ${os_version}"
+welcome_title="Welcome"
+welcome_text="\nWelcome to the installer for MidgardOS Server ${os_version}\n\nPlease press <ENTER> to continue"

@@ -1,0 +1,43 @@
+#!/bin/bash
+
+set -e
+set -u
+set -o pipefail
+
+app_prefix="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
+
+. ${app_prefix}/../lib/CliInstaller/Strings
+
+function welcome_screen {
+    dialog \
+        --clear \
+        --no-shadow \
+        --title "${welcome_title}" \
+        --backtitle "${back_title}" \
+        --msgbox "${welcome_text}" 10 80
+}
+
+function main {
+    # start screen
+    welcome_screen
+
+    # license agreement
+
+    # hardware detection
+
+    # datetime
+
+    # where to install to? (disks)
+
+    # Settings
+
+    # Review
+
+    # install
+
+    # post-os
+
+    # reboot
+}
+
+main
